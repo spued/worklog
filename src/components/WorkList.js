@@ -112,7 +112,7 @@ const WorkList = ({ lasttime }) => {
     }
     return (
         <div className='content-container'>
-            <h3>Today view</h3>
+            <h3>Last 24H view</h3>
             <ul className='list-body'>
                 { _drawWorkListTable() }
             </ul>
